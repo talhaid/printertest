@@ -1,0 +1,22 @@
+# Requirements for Zebra GC420T PDF Printing
+# ==========================================
+
+# Core PDF processing (choose one)
+PyMuPDF>=1.23.0        # Recommended: Fast and reliable PDF processing
+# PyPDF2>=3.0.0         # Alternative: Pure Python PDF library
+
+# Image processing
+Pillow>=10.0.0          # For image manipulation and conversion
+
+# Windows printer support
+pywin32>=306            # For Windows printer communication
+
+# Optional: Advanced ZPL support
+# zebra-zpl>=0.1.0      # For ZPL command generation (uncomment if needed)
+
+# Optional: Network printing support
+# requests>=2.31.0      # For HTTP-based printer communication (uncomment if needed)
+
+# Development and testing
+# pytest>=7.4.0        # For unit testing (uncomment for development)
+# black>=23.0.0         # For code formatting (uncomment for development)
